@@ -18,22 +18,29 @@
         </nav>
     </header>
 
-    <main class="kontaktform"> 
+    <main>
+        <section class="kontaktform">
         <h1>kontakt os</h1>
-            <p class="kontakt tekst">send os en besked og så vender vi tilbage til dig </p>
+            <p class="kontakt-tekst">send os en besked og så vender vi tilbage til dig </p>
 
             <form>
-                <label for="navn"></label> 
-                <input id="navn" type="text" required>
+                <label class="visually-hidden" for="navn">navn</label> 
+                <input id="navn" type="text" placeholder="navn" required>
 
-                <label for="mail"></label> 
-                <input id="mail" type="text" required>
+                <label class="visually-hidden" for="mail">mail</label> 
+                <input id="mail" type="text" placeholder="mail" required>
 
-                <label for="tlf"></label> 
-                <input id="tlf" type="text" required>
+                <label class="visually-hidden" for="tlf">tlf</label> 
+                <input id="tlf" type="tel" placeholder="tlf" required>
 
-                <label for="adresse"></label> 
-                <input id="adresse" type="text" required>
+                <label class="visually-hidden" for="adresse">adresse</label> 
+                <input id="adresse" type="text" placeholder="adresse" required>
+
+                <fieldset>
+                    <label for="besked">Besked</label>
+                    <textarea id="besked" cols="30" rows="10"></textarea>
+
+                </fieldset>
 
                 <!--dropdown-->
 
@@ -54,7 +61,7 @@
                 </div>
 
             </form>
-
+        </section> 
 
     </main>
 
