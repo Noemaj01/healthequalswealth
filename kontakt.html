@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+             <a href="index.html"><img class="logo" src="img/logo 2.png" alt="hjemmeside logo"></a>
+            <ul>
+                <li><a href="vejen-frem.html">Vejen frem</a></li>
+                <li><a href="#">Vores vision</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="kontaktform"> 
+        <h1>kontakt os</h1>
+            <p class="kontakt tekst">send os en besked og så vender vi tilbage til dig </p>
+
+            <form>
+                <label for="navn"></label> 
+                <input id="navn" type="text" required>
+
+                <label for="mail"></label> 
+                <input id="mail" type="text" required>
+
+                <label for="tlf"></label> 
+                <input id="tlf" type="text" required>
+
+                <label for="adresse"></label> 
+                <input id="adresse" type="text" required>
+
+                <!--dropdown-->
+
+                <div class="custom-select">
+                    <label for="region">vælg region</label>
+                    <select id="region">
+                        <option value="0" selected="true" disabled>vælg region</option>
+                        <option value="1">Jylland</option>
+                        <option value="2">Sjælland</option>
+                        <option value="3">Fyn</option>
+                        <option value="4">Bonholm</option>
+                        <option value="5">Færøerne</option>
+                        <option value="6">Andet</option>
+
+                    </select>
+                    <a class="btn2" href="#">send</a>
+
+                </div>
+
+            </form>
+
+
+    </main>
+
+    <footer>
+    <div class="left-footer">
+        <address>
+            <p>Adresse: Fiktionsvej 14</p>
+            <p>Tlf: # </p>
+            <p>Mail: Health-e@wealth.dk</p>
+        </address>
+    </div>
+
+    <div class="right-footer">
+        <h3>Sociale medier</h3> 
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Tiktok</a>
+    </div>
+
+</footer>
+
+
+</body>
+</html>
