@@ -12,7 +12,7 @@
              <a href="index.html"><img class="logo" src="img/logo 2.png" alt="hjemmeside logo"></a>
             <ul>
                 <li><a href="vejen-frem.html">Vejen frem</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a class="ernu2" href="kontakt.html">Kontakt</a></li>
             </ul>
         </nav>
     </header>
@@ -23,28 +23,28 @@
             <p class="kontakt-tekst">Send os en besked og så vender vi tilbage til dig </p>
 
             <form>
-                <label class="visually-hidden" for="navn"></label> 
+                <label class="visually-hidden" for="navn">navn</label> 
                 <input id="navn" type="text" placeholder="navn" required>
 
-                <label class="visually-hidden" for="mail"></label> 
+                <label class="visually-hidden" for="mail">mail</label> 
                 <input id="mail" type="text" placeholder="mail" required>
 
-                <label class="visually-hidden" for="tlf"></label> 
+                <label class="visually-hidden" for="tlf">tlf</label> 
                 <input id="tlf" type="tel" placeholder="tlf" required>
 
-                <label class="visually-hidden" for="adresse"></label> 
+                <label class="visually-hidden" for="adresse">adresse</label> 
                 <input id="adresse" type="text" placeholder="adresse" required>
 
                 <fieldset>
-                    <label for="besked">Besked</label>
-                    <textarea id="besked" cols="30" rows="10"></textarea>
+                    <label for="besked">besked</label>
+                    <textarea id="besked" type="text" placeholder="besked" cols="30" rows="10"></textarea>
 
                 </fieldset>
 
                 <!--dropdown-->
 
                 <div class="custom-select">
-                    <label for="region">vælg region</label>
+                    <label for="region">region</label>
                     <select id="region">
                         <option value="0" selected="true" disabled>vælg region</option>
                         <option value="1">Jylland</option>
