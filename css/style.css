@@ -74,7 +74,6 @@ width: auto;
 /*---banner---*/
 
 .banner{
-    
     background-image: url('../img/stress2.png');
     background-size: cover;
     background-position: left;
@@ -95,10 +94,17 @@ h1, h2, h3{
 
 .billede-tekst{
     display: flex;
-    object-fit: cover;
-    max-width: 68%;
     padding-bottom: 5em;
-    color: rgb(255, 255, 255);;
+}
+
+.billede-tekst img{
+    width: 50%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.billede-tekst aside{
+    width: 50%;
 }
 
 .btn{
